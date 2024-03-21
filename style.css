@@ -1,0 +1,44 @@
+header {
+    background-color: blue;
+    justify-content: space-between;
+    /* align-items: */
+}
+
+nav {
+    background-color: purple;
+    display: flex;
+    list-style: none;
+}
+
+li { 
+    
+    display:inline;
+    margin-right: 0;
+    margin-left: auto;
+
+}
+
+a {
+    color:black;
+}
+.recentpost{
+    background-color: green;
+    height: 200px;
+    width: 200px; 
+    margin-bottom: 10px;
+    display: inline-block;
+    justify-content: center;
+}
+
+.gallery{
+    background-color: yellow;
+}
+
+.card{
+    background-color: orange;
+    height: 100px;
+    width: 400px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
